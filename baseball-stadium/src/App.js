@@ -55,7 +55,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div data-testid="player-score" className="App">
         <Display score={this.state} />
         <Dashboard 
           handleStrike={this.handleStrike} 
